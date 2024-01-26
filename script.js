@@ -6,7 +6,7 @@ document.getElementById('form')
 
     btn.value = 'Verifying...';
 
-    const serviceID = 'default_service';
+    const serviceID = 'service_lniv5gm';
     const templateID = 'template_xj1qpla';
 
     emailjs.sendForm(serviceID, templateID, this)
